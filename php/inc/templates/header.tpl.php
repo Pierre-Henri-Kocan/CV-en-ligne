@@ -22,22 +22,22 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="./">Accueil</a>
+                                <a class="nav-link <?= ( $pageToDisplay == 'home' ) ? 'active' : '' ; ?>" href="./">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php?page=experience">Expériences</a>
+                                <a class="nav-link <?= ( $pageToDisplay == 'experience' ) ? 'active' : '' ; ?>" href="index.php?page=experience">Expériences</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php?page=formation">Formations</a>
+                                <a class="nav-link <?= ( $pageToDisplay == 'formation' ) ? 'active' : '' ; ?>" href="index.php?page=formation">Formations</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php?page=technology">Technologies</a>
+                                <a class="nav-link <?= ( $pageToDisplay == 'technology' ) ? 'active' : '' ; ?>" href="index.php?page=technology">Technologies</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
+                                <a class="nav-link <?= ( $pageToDisplay == 'information' ) ? 'active' : '' ; ?>" href="index.php?page=information">Informations</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacts</a>
+                                <a class="nav-link <?= ( $pageToDisplay == 'contact' ) ? 'active' : '' ; ?>" href="index.php?page=contact">Contact</a>
                             </li>
                         </ul>
                     </div>
