@@ -84,133 +84,139 @@ body {
 /* ---------------------- navbar ---------------------- */
 
 .navbar {
-    background-color: rgba(229, 229, 229, 0.4);
-    padding: 0;
-    width: 100%;
+  background-color: rgba(229, 229, 229, 0.4);
+  padding: 0;
+  width: 100%;
 }
 
 .nav-avatar {
-    width: 5rem;
-    margin-right: 1rem;
+  width: 5rem;
+  margin-right: 1rem;
 }
 
 .navbar-collapse {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .nav-link {
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 0 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 2rem;
+  box-shadow: inset 0 0 0 0 #9026fb54;
+  border-radius: 100px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .navbar-nav .nav-link.active {
-    color: #fff;
-    text-decoration: underline;
+  color: #fff;
+  box-shadow: inset 13rem 0 0 0 #9026fb54;
+  border-radius: 100px;
 }
 
 .nav-link:hover{
-    color: #fff;
-    text-decoration: underline;
+  color: #fff;
+  box-shadow: inset 13rem 0 0 0 #9026fb54;
+  border-radius: 100px;
+  
 }
 
 .nav-link-home {
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 /* ---------------------- profil ---------------------- */
 
 .card {
-    margin: 5rem auto 5rem auto;
-    background-color: rgb(241, 240, 240);
+  margin: 5rem auto 5rem auto;
+  background-color: rgb(241, 240, 240);
 }
 
 .profil-card {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .profil-picture {
-    width: 100%;
-    max-width: 400px;
-    min-width: 200px;
-    height: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  height: auto;
 }
 
 .card-body h5 {
-    margin-bottom: 0.7rem;
-    font-size: 2rem;
-    font-weight: 600;
+  margin-bottom: 0.7rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .card-body h6 {
-    margin-bottom: 1.8rem;
-    font-size: 1rem;
-    font-weight: 600;
+  margin-bottom: 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .card-title {
-    color: rgba(69,193,235,1);
-    font-family: 'Quicksand', sans-serif;
+  color: rgba(69,193,235,1);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .card-function {
-    color: rgba(0,255,190,1);
-    font-family: 'Quicksand', sans-serif;
+  color: rgba(0,255,190,1);
+  font-family: 'Quicksand', sans-serif;
 }
 
 .contacts {
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .contacts img {
-    width: 30px;
+  width: 30px;
 }
 
 .contacts p {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 2rem;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 2rem;
 }
 
 @media screen and (max-width: 850px) {
-    .card {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+  .card {
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
 
-    .card-body h5 {
-        text-align: center;
-    }
+  .card-body h5 {
+      text-align: center;
+  }
 
-    .card-body h6 {
-        text-align: center;
-    }
+  .card-body h6 {
+      text-align: center;
+  }
 }
 
 @media screen and (max-width: 754px) {
-    .card {
-      width: 53%;
-    }
+  .card {
+    width: 53%;
+  }
 }
 
 @media screen and (max-width: 542px) {
-    .card {
-      width: 70%;
-      min-width: 250px;
-    }
+  .card {
+    width: 70%;
+    min-width: 250px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -227,30 +233,30 @@ body {
 /* ---------------------- about ---------------------- */
 
 .about {
-    background-color: rgb(241, 240, 240);
-    margin: auto; 
-    padding: 1rem;
-    border-radius: 5px;
-    border: solid 1px rgb(208, 208, 208);
+  background-color: rgb(241, 240, 240);
+  margin: 2rem auto; 
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid 1px rgb(208, 208, 208);
 }
 
 .about h2 {
-    margin-bottom: 2rem;
-    padding-top: 0.5rem;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .about p {
-    text-align: justify;
-    font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
 }
 
 @media screen and (max-width: 1050px) {
-    .about {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+  .about {
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
 }
   
 /* ---------------------- timeline ---------------------- */
@@ -264,7 +270,7 @@ body {
 }
 
 .outer {
-  border-left: 2px solid rgba(0,255,190,1);
+  border-left: 2px solid rgba(255, 255, 255, 0.50);
   margin: 2rem 0;
 }
 
@@ -272,12 +278,13 @@ body {
   position: relative;
   margin: 0 0 3rem 1.25rem;
   padding: 10px;
-  background: rgba(0,255,190,1);
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.50);
   color: rgb(255, 255, 255);
-  border-radius: 8px;
   max-width: 40rem;
-  -webkit-box-shadow: 2px -2px 9px 6px rgba(0,0,0,0.34); 
-  box-shadow: 2px -2px 9px 6px rgba(0,0,0,0.34);
+  -webkit-box-shadow: 2px -2px 9px 6px rgba(0,0,0,0.25); 
+  box-shadow: 2px -2px 9px 6px rgba(0,0,0,0.25);
 }
 
 .info {
@@ -287,11 +294,20 @@ body {
 }
   
 .title {
-  color: rgba(69,193,235,1);
+  color: #69696989;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.157);
   font-size: 2rem;
+  font-weight: 600;
   position: relative;
+  text-align: center;  
+  background: linear-gradient(
+    to right, 
+    rgb(61, 158, 255), 
+    rgb(196, 46, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
 }    
 
 .card-experience-date, .card-formation-date {
@@ -315,10 +331,13 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: white;
+  background: linear-gradient(
+    to right, 
+    rgb(61, 158, 255), 
+    rgb(196, 46, 255)
+  );
   border-radius: 999px;
-  left: -2.55rem;
-  border: 3px solid rgba(69,193,235,1);
+  left: -2.6rem;
 }
 
 /* ---------------------- technology ---------------------- */
@@ -687,8 +706,9 @@ body {
   box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17)
 }
 
-.contact-message-area:hover, .contact-email-area:hover {
-  border: none;
+.contact-message-area:hover, .contact-email-area:hover, .contact-subject-area:hover {
+  border: 1px solid rgba(255, 255, 255, 0);
+
 }
 
 .contact-email label, .contact-message label, .contact-subject label {

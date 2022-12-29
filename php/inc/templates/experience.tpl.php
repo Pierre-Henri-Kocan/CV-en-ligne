@@ -8,9 +8,9 @@
           <h3 class="title"><?= $value['title'] ?></h3>
           <h4 class="card-experience-date"><?= $value['date'] ?></h4>
           <h5 class="card-experience-location"><?= $value['location'] ?></h5>
-            <?php foreach ($value['detail'] as $key => $value) :?>
-              <p class="card-experience-detail"><?= $value ?></p>
-            <?php endforeach; ?>
+          <?php foreach ($value['detail'] as $key => $value) :?>
+            <p class="card-experience-detail"><?= $value ?></p>
+          <?php endforeach; ?>
         </div>
       </div>
     <?php endforeach; ?>
