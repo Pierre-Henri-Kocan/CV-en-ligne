@@ -1,4 +1,4 @@
-<?php include 'inc/data.php'; ?>
+<?php include 'php/inc/data.php'; ?>
 
 <div class="container-fluid mb-5">
   <div class="box">

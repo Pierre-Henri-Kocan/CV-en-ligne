@@ -1,4 +1,4 @@
-<?php include 'inc/data.php'; ?>
+<?php include 'php/inc/data.php'; ?>
 
 <div class="timeline">
   <div class="outer">

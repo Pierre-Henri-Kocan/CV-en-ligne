@@ -1,37 +1,37 @@
 <div class="container-technology">
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/HTML.png">
+      <img src="php/public/images/HTML.png">
     </div>
   </div>  
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/CSS.png">
+      <img src="php/public/images/CSS.png">
     </div>
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/JS.png">
+      <img src="php/public/images/JS.png">
     </div>
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/PHP.png">
+      <img src="php/public/images/PHP.png">
     </div>
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/Symfony.png">
+      <img src="php/public/images/Symfony.png">
     </div>
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/MySQL.png">
+      <img src="php/public/images/MySQL.png">
     </div>
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="public/images/Git.png">
+      <img src="php/public/images/Git.png">
     </div>
   </div>
 </div>
