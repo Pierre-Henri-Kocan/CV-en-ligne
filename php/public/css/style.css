@@ -126,6 +126,17 @@ body {
   text-decoration: none;
 }
 
+@media screen and (max-width: 840px) {
+
+  .nav-link {
+    transition: none;
+    box-shadow: none;
+  }
+  .navbar-nav .nav-link.active {
+    box-shadow: none;
+  }
+}
+
 /* ---------------------- profil ---------------------- */
 
 .card {
@@ -200,7 +211,6 @@ body {
   .card-body h5 {
       text-align: center;
   }
-
   .card-body h6 {
       text-align: center;
   }
@@ -223,7 +233,6 @@ body {
   .card-body h5 {
       font-size: 1.5rem;
   }
-
   .contacts p {
     margin-left: 1rem;
     font-size: 0.8rem;
@@ -345,7 +354,7 @@ body {
 .container-technology {
   position: relative;
   width: 80%;
-  min-width: 26rem;
+  min-width: 20rem;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -482,7 +491,25 @@ body {
   }
 }
 
-/* ---------------------- soft skills ---------------------- */
+@media screen and (max-width: 840px) {
+  .container-technology .box {
+    transform: none;
+  }
+  .container-technology:hover .box {
+    transform: none;
+  }
+  .container-technology .box:hover ~ .box {
+    transform: none;
+  }
+  .container-technology .box:hover {
+    transform: none;
+  }
+  .container-technology .box .imgBx:before {
+    background: none;
+  }
+}
+
+/* ---------------------- information ---------------------- */
 
 .box {
   padding: 1rem 0;
@@ -550,8 +577,6 @@ body {
   }
 }
 
-/* ---------------------- competence & language ---------------------- */
-
 .competence-language {
   display: flex;
   flex-wrap: wrap;
@@ -560,12 +585,18 @@ body {
   margin: 0 auto;
 }
 
-.competence, .language {
-  display: flex;
-  flex-direction: column;
-  margin: 0 2rem;
-  padding-top: 2rem;
-  width: 25%;
+.competence-block, .language-block {
+  width: 40%;
+  margin: 1rem 2rem;
+}
+
+.information-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin: 2rem 1rem;
+  text-shadow: 1px 1px 2px rgba(130, 130, 130, 0.3);
 }
 
 .competence-detail, .language-detail {
@@ -573,7 +604,8 @@ body {
   border-radius: 0.6rem;
   background-color: #fff;
   transition: all .4s ease-in-out;
-  box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17)
+  box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17);
+  padding: 0.5rem;
 }
 
 .competence-detail:hover {
@@ -599,6 +631,7 @@ body {
 .box {
 	display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .box .inner {
@@ -609,7 +642,6 @@ body {
 	font-weight: bold;
 	white-space: nowrap;
 	overflow: hidden;
-  
 }
 
 .box .inner:first-child {
@@ -644,20 +676,37 @@ body {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 840px) {
   .competence-language {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: auto;
-    margin: 0 auto;
+    flex-direction: column;
+    align-content: center;
+  }
+  .competence-block, .language-block {
+    width: 80%;
+    margin: 1rem 2rem;
+  }
+  .information-title {
+    font-size: 1.5rem;
   }
 }
 
 /* ---------------------- contact ---------------------- */
 
+.alert {
+  margin-top: 1rem;
+}
+
+.contact-me {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
 .contact {
   display: flex;
-  width: 50%;
+  width: 80%;
   margin: 2rem auto;
   flex-direction: column;
   flex-wrap: wrap;
@@ -665,11 +714,22 @@ body {
   align-items: center;
 }
 
-.contact-email, .contact-message, .contact-subject {
+.contact-name, .contact-email, .contact-message, .contact-subject {
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-name-area {
+  width: 50%;
+  margin: 1rem auto 3rem auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17);
 }
 
 .contact-email-area {
@@ -680,7 +740,7 @@ body {
   border-radius: 0.6rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
   background-color: #fff;
-  box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17)
+  box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17);
 }
 
 .contact-subject-area {
@@ -706,15 +766,15 @@ body {
   box-shadow: 0 0 1.5rem 0 rgba(20,27,202,.17)
 }
 
-.contact-message-area:hover, .contact-email-area:hover, .contact-subject-area:hover {
+.contact-name-area:hover, .contact-message-area:hover, .contact-email-area:hover, .contact-subject-area:hover {
   border: 1px solid rgba(255, 255, 255, 0);
 
 }
 
-.contact-email label, .contact-message label, .contact-subject label {
+.contact-name label, .contact-email label, .contact-message label, .contact-subject label {
   font-size: 2rem;
   font-weight: 600;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-submit-button {
@@ -730,6 +790,40 @@ body {
 }
 
 .contact-submit-button:hover {
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
+
+@media screen and (max-width: 840px) {
+
+  .contact-me {
+    font-size: 1rem;
+  }
+
+  .contact-name label, .contact-email label, .contact-message label, .contact-subject label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .contact-name-area, .contact-email-area, .contact-subject-area, .contact-message-area {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .contact-name-area, .contact-email-area, .contact-subject-area {
+    height: 2rem;
+  }
+
+  .contact-message-area {
+    height: 10rem;
+  }
+
+  .contact-submit-button {
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+  }
+
+}
+
+
 

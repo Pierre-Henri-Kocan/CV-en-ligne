@@ -1,13 +1,8 @@
 <?php include 'php/inc/data.php'; ?>
 
 <div class="container-fluid mb-5">
-  <div class="box">
-    <div class="inner">
+  <div class="information-title">
       <span>Soft skills</span>
-    </div>
-    <div class="inner">
-      <span>Soft skills</span>
-    </div>
   </div>
 
   <div class="row">
@@ -37,39 +32,32 @@
       </div>
     <?php endforeach; ?>
   </div>
+
   <div class="competence-language">
-  <div class="competence">
-  <div class="box">
-    <div class="inner">
-      <span>Compétences clés</span>
+    <div class="competence-block">
+      <div class="information-title">
+        <span>Compétences clés</span>
+      </div>
+      <div class="competence-detail">  
+        <p>Polyvalence</p>
+        <p>Organisation</p>
+        <p>Autonomie</p>
+      </div>
     </div>
-    <div class="inner">
-      <span>Compétences clés</span>
-    </div>
-  </div>
-    <div class="competence-detail">  
-      <p>Polyvalence</p>
-      <p>Organisation</p>
-      <p>Autonomie</p>
+
+    <div class="language-block">
+      <div class="information-title">
+        <span>Langues</span>
+      </div>
+      <div class="language-detail">  
+        <p>Français – Maternelle</p>
+        <p>Anglais - Intermédiaire</p>
+      </div>
     </div>
   </div>
 
-  <div class="language">
-  <div class="box">
-    <div class="inner">
-      <span>Langues</span>
-    </div>
-    <div class="inner">
-      <span>Langues</span>
-    </div>
-  </div>
-    <div class="language-detail">  
-      <p>Français – Maternelle</p>
-      <p>Anglais - Intermédiaire</p>
-    </div>
-  </div>
 </div>
-</div>
+
 
 
 
