@@ -18,7 +18,7 @@ $headers = 'From: contact@pierre-henri-kocan.com' . "\r\n" . 'Bcc: contact@pierr
     }
 ?> 
 
-<p class="contact-me">N'hésitez pas à me contacter pour toute information complémentaire.</p>
+<p class="contact-me">N'hésitez pas à me contacter pour toutes informations complémentaires.</p>
 
 <form class="contact" method="post">
 

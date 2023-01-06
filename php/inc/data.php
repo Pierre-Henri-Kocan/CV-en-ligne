@@ -48,19 +48,27 @@ $formationList = [
     1 => [
         'title' => "Certification - Maîtrise de la qualité en projet Web",
         'date' => "Novembre 2022",
-        'location' => "Opquast – A distance",
+        'location' => "Opquast – A distance - <a href='https://directory.opquast.com/fr/certificat/3T61KS/' target='_blank' class='card-formation-location'>Accéder au certificat</a>",
         'detail' => [
-            "Niveau avancé – 800 points",
+            "Niveau avancé – Score de 800/1000",
+            "Prendre en compte la diversité et les exigences des utilisateurs",
+            "Connaître les métiers du projet Web",
+            "Maîtriser le vocabulaire du projet Web",
+            "Connaître les règles, leur conception et leur utilisation",
+            "Utiliser une check-list qualité Web",
+            "Prévenir les risques et renforcer l’assurance qualité Web",
+            "Le score obtenu atteste d'une : Excellente connaissance des bonnes pratiques qualité Web et du vocabulaire associé. Compétences réelles et appréciables pour participer à des projets Web.",
         ],
     ],
     2 => [
         'title' => "Formation développeur web & web mobile",
-        'date' => "Août 2022",
+        'date' => "Mars 2022 - Août 2022",
         'location' => "Ecole O’clock – Téléprésentiel",
         'detail' => [
-            "3 mois de Socle : HTML5/CSS3/JavaScript/PHP/MySQL",
-            "1 mois de Spécialisation : Symfony",
-            "1 mois de projet Symfony/React",
+            "<strong>1 mois d'apprentissage des langages HTML & CSS</strong> permettant de créer une page web. <br> Prise en main de l'environnement <strong>Linux</strong> avec ses lignes de commandes.",
+            "<strong>1 mois d'apprentissage de JavaScript</strong> permettant de façonner l'expérience utilisateur en créant de l'interactivité côté navigateur. <br> Utilisation du logiciel de gestion de versions décentralisé <strong>GIT</strong>. <br> Prise en main du CMS <strong>Wordpress</strong>. <br> Utilisation de la méthode <strong>AJAX</strong> permettant d'améliorer l'expérience utilisateur.",
+            "<strong>1 mois d'apprentissage de PHP</strong> permettant de rendre dynamique et fonctionnel un site web. <br> Apprentissage du langage <strong>SQL</strong> permettant d'exploiter des bases de données relationnelles. <br> Découverte du métier d'<strong>Administrateur Systèmes et Réseaux</strong>. <br> Mise en place d'une architecture <strong>MVC</strong> et de la Programmation Orienté Objet (POO). <br> Utilisation d'<strong>API</strong> permettant la communication entre plusieurs services.",
+            "<strong>1 mois de spécialisation sur le framework Symfony</strong> : <br> Installation de composer et de différents bundles. <br> Utilisation des templates sous Twig. <br> Gestion des Entités, Repositories et Controllers. <br> Utilisation de <strong>Doctrine</strong>, des Custom queries et des fixtures. <br> Création de formulaires et gestion des authentifications et rôles. <br> Mise en place de tests unitaires et fonctionnels.",
         ],
     ],
     3 => [

@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+
+RewriteEngine on
+
+RewriteRule /expérience /index.php?page=experience

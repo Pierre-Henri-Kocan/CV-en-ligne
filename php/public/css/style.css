@@ -140,7 +140,7 @@ body {
 /* ---------------------- profil ---------------------- */
 
 .card {
-  margin: 5rem auto 5rem auto;
+  margin: 5rem auto 2rem auto;
   background-color: rgb(241, 240, 240);
 }
 
@@ -172,12 +172,19 @@ body {
 
 .card-title {
   color: rgba(69,193,235,1);
-  font-family: 'Quicksand', sans-serif;
 }
 
 .card-function {
-  color: rgba(0,255,190,1);
-  font-family: 'Quicksand', sans-serif;
+  color: rgb(86, 204, 175);
+  text-align: center;
+}
+
+.contact-link {
+  color: rgb(0, 0, 0);
+}
+
+.contact-link:hover {
+  color: rgba(69,193,235,1);
 }
 
 .contacts {
@@ -195,7 +202,6 @@ body {
 
 .contacts p {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
   margin-left: 2rem;
 }
 
@@ -253,12 +259,10 @@ body {
   margin-bottom: 2rem;
   padding-top: 0.5rem;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
 }
 
 .about p {
   text-align: justify;
-  font-family: 'Quicksand', sans-serif;
 }
 
 @media screen and (max-width: 1050px) {
@@ -267,7 +271,33 @@ body {
       margin-right: 1rem;
   }
 }
-  
+
+/* ---------------------- CV ---------------------- */
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 240, 240);
+  margin: 0.5rem auto; 
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid 1px rgb(208, 208, 208);
+}
+
+.curriculum img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.curriculum-text{
+  color: #696969;
+}
+
+.curriculum-text:hover {
+  color: rgba(69,193,235,1);
+}
+
 /* ---------------------- timeline ---------------------- */
 
 .timeline {
@@ -320,19 +350,22 @@ body {
 }    
 
 .card-experience-date, .card-formation-date {
+  margin: 0;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #fff;
 }
 
 .card-experience-location, .card-formation-location {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #fff;
 }
 
 .card-experience-detail, .card-formation-detail  {
   margin-bottom: 0rem;
-  margin-left: 5rem;
-  font-family: 'Quicksand', sans-serif;
+  margin-left: 2rem;
+  color: #696969;
 }
 
 .title::before {
