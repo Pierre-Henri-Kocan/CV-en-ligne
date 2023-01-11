@@ -55,7 +55,12 @@
       </div>
     </div>
   </div>
+</div>
 
+<div class="pagination">
+  <a class="pagination-button" href="index.php?page=technology">&larr;</a>
+  <a class="pagination-button" href="#top">&uarr;</a>
+  <a class="pagination-button" href="index.php?page=contact">&rarr;</a>
 </div>
 
 

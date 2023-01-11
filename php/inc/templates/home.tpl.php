@@ -52,3 +52,8 @@
 	<p>J’ai aujourd’hui acquis les compétences nécessaires pour débuter ces nouvelles fonctions.</p>
 </div>
 
+<div class="pagination">
+	<a class="pagination-button" href="index.php?page=contact">&larr;</a>
+	<a class="pagination-button" href="#top">&uarr;</a>
+	<a class="pagination-button" href="index.php?page=experience">&rarr;</a>
+</div>

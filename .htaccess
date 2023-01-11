@@ -1,5 +1,6 @@
-Options +FollowSymlinks
-
 RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pierre-henri-kocan.com$
+RewriteRule ^(.*) http://www.pierre-henri-kocan.com/$1 [QSA,L,R=301]
 
-RewriteRule /expérience /index.php?page=experience
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.pierre-henri-kocan.com/$1 [R,L]

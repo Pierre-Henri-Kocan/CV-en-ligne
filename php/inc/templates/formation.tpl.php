@@ -16,3 +16,9 @@
     <?php endforeach; ?>
   </div>
 </div>
+
+<div class="pagination">
+  <a class="pagination-button" href="index.php?page=experience">&larr;</a>
+  <a class="pagination-button" href="#top">&uarr;</a>
+  <a class="pagination-button" href="index.php?page=technology">&rarr;</a>
+</div>
