@@ -12,7 +12,7 @@ $captcha = new Recaptcha('6LcbOOgjAAAAAAaJxwjNnlLEOX9yGzNPkpe7a8Li');
 if (isset($_POST['message'])) {
     $retour = mail($to, mb_encode_mimeheader($subject), $message, $headers);
 
-    if ($retour && $captcha->checkCode($_POST['g-recaptcha-response'])) { ?>
+    if ($retour && $captcha->isValid($_POST['g-recaptcha-response'])) { ?>
         <div class="alert alert-success" role="alert">Votre message a bien été envoyé.</div>
         <?php   
     } else {

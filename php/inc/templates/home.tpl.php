@@ -6,7 +6,7 @@
     <div class="profil-card-right">
       <div class="card-body">
         <h5 class="card-title">Pierre-Henri Kocan</h5>
-		<h6 class="card-function">Developpeur web - Back-end</h6>
+		<h6 class="card-function">Developpeur web - Back-end <br> PHP / Symfony</h6>
 		<div class="contacts">
 			<img src="php/public/images/phone.png" alt="phone-picture">
 			<p>+33(0)6.61.87.86.02</p>
@@ -40,8 +40,8 @@
 </div>
 
 <div class="curriculum">
-	<a href="php/public/documents/CV-Pierre-Henri-KOCAN-2023.pdf" target="_blank"><img src="php/public/images/cv.png"></a>
-	<a href="php/public/documents/CV-Pierre-Henri-KOCAN-2023.pdf" target="_blank" class="curriculum-text">Voir mon CV au format PDF</a>
+	<a href="php/public/documents/cv-pierre-henri-kocan-2023.pdf" target="_blank"><img src="php/public/images/cv.png"></a>
+	<a href="php/public/documents/cv-pierre-henri-kocan-2023.pdf" target="_blank" class="curriculum-text">Voir mon CV au format PDF</a>
 	<!-- <a href="php/public/documents/CV-Pierre-Henri-KOCAN-2023.pdf" target="_blank" class="curriculum-text" download>Télécharger</a> -->
 </div>
 	

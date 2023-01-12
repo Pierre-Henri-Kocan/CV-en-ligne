@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
+:root{
+  --text: #696969;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;padding: 0;
@@ -137,12 +141,6 @@ body {
   }
 }
 
-/* ---------------------- footer ---------------------- */
-
-footer {
-  margin-bottom: 1.5rem;
-}
-
 /* ---------------------- pagination button ---------------------- */
 
 .pagination {
@@ -165,6 +163,28 @@ footer {
   background-color: rgb(116, 46, 255);
   text-decoration: none;
   color: #fff;
+}
+
+/* ---------------------- footer ---------------------- */
+
+footer {
+  width: 100%;
+  background-color: rgba(241, 240, 240, 0.50);
+  padding: 1rem;
+  color: var(--text);
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.btn-legal {
+  color: var(--text);
+  padding: 0;
+  border: 0;
+  margin: 0;
+  vertical-align: baseline;
 }
 
 /* ---------------------- profil ---------------------- */
@@ -197,22 +217,23 @@ footer {
 }
 
 .card-body h6 {
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.1rem;
   font-size: 1rem;
   font-weight: 600;
 }
 
 .card-title {
-  color: rgba(69,193,235,1);
+  color: rgb(51, 63, 199);
 }
 
 .card-function {
-  color: rgb(86, 204, 175);
+  color: rgb(182, 12, 244);
   text-align: center;
 }
 
 .contact-link {
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .contact-link:hover {
@@ -235,6 +256,7 @@ footer {
 .contacts p {
   margin: 0;
   margin-left: 2rem;
+  color: var(--text);
 }
 
 @media screen and (max-width: 850px) {
@@ -291,10 +313,12 @@ footer {
   margin-bottom: 2rem;
   padding-top: 0.5rem;
   text-align: center;
+  color: #fff;
 }
 
 .about p {
   text-align: justify;
+  color: var(--text);
 }
 
 @media screen and (max-width: 1050px) {
@@ -323,7 +347,7 @@ footer {
 }
 
 .curriculum-text{
-  color: #696969;
+  color: var(--text);
 }
 
 .curriculum-text:hover {
@@ -365,7 +389,7 @@ footer {
 }
   
 .title {
-  color: #69696989;
+  color: var(--text);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.157);
   font-size: 2rem;
   font-weight: 600;
@@ -397,7 +421,7 @@ footer {
 .card-experience-detail, .card-formation-detail  {
   margin-bottom: 0rem;
   margin-left: 2rem;
-  color: #696969;
+  color: var(--text);
 }
 
 .title::before {
@@ -600,6 +624,11 @@ footer {
 
 .our-services h4 {
   font-weight: 600;
+  color: var(--text);
+}
+
+.our-services p {
+  color: var(--text);
 }
 
 .our-services:hover h4, .our-services:hover p {
@@ -684,7 +713,7 @@ footer {
 }
 
 .competence-detail p, .language-detail p {
-  color: rgb(0, 0, 0);
+  color: var(--text);
   font-size: 1rem;
   margin: 0.5rem 0.5rem;
 }

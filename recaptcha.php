@@ -8,7 +8,7 @@ class Recaptcha {
         $this->secret = $secret;
     }
 
-    public function checkCode($code) {
+    public function isValid($code) {
         if(empty($code)) {
             return false;
         }
