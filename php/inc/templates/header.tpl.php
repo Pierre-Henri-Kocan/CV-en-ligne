@@ -34,6 +34,8 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link <?= ( $pageToDisplay == 'technology' ) ? 'active' : '' ; ?>" href="index.php?page=technology">Technologies</a>
+                            </li><li class="nav-item">
+                                <a class="nav-link <?= ( $pageToDisplay == 'realisation' ) ? 'active' : '' ; ?>" href="index.php?page=realisation">Réalisations</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link <?= ( $pageToDisplay == 'information' ) ? 'active' : '' ; ?>" href="index.php?page=information">Informations</a>

@@ -39,5 +39,5 @@
 <div class="pagination">
   <a class="pagination-button" href="index.php?page=formation">&larr;</a>
   <a class="pagination-button" href="#top">&uarr;</a>
-  <a class="pagination-button" href="index.php?page=information">&rarr;</a>
+  <a class="pagination-button" href="index.php?page=realisation">&rarr;</a>
 </div>
