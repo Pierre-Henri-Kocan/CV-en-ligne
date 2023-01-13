@@ -142,3 +142,53 @@ $informationList2 = [
         'detail' => "Faciliter la mise à disposition des sites web au plus grand nombre quel que soit le matériel, la langue, la localisation géographique ou l'aptitude physique.",
     ],
 ];
+
+$realisationList = [
+    1 => [
+        'title' => "Projet de fin de formation - Tribu",
+        'link' => "https://github.com/Pierre-Henri-Kocan/Projet-Tribu-Back",
+        'picture' => "php/public/images/logo-tribu-final.png",
+        'detail' => [
+            "Tribu est le réseau social pour les français expatriés.",
+            "Quand on part pour un autre pays, il peut être difficile de retrouver une vie sociale.",
+            "Grâce à cette appli web, retrouvez les lieux d’intérêt de la communauté, rencontrez les français déjà installés et leurs connaissances, accueillez les nouveaux arrivants, Démarrez votre nouvelle vie !",
+        ],
+    ],
+
+    2 => [
+        'title' => "Mon CV en ligne",
+        'link' => "https://github.com/Pierre-Henri-Kocan/CV-en-ligne",
+        'picture' => "php/public/images/avatar.png",
+        'detail' => [
+            "Dans ce repository, vous trouverez le code de la version en ligne de mon CV. Il comprend l'ensemble des informations de mon CV avec plus de détail au niveau de mes expériences professionnelles et de mes formations et diplômes.",
+            "Ce site est optimisé pour l'ensemble des supports (ordinateur, tablette et mobile) et vous pourrez également y télécharger mon CV au format PDF et m'envoyer un message si vous souhaitez avoir de plus amples informations à mon sujet.",
+        ],
+    ],
+
+    3 => [
+        'title' => "Projet - World of warcraft",
+        'link' => "https://github.com/Pierre-Henri-Kocan/Projet-World-of-warcraft",
+        'picture' => "php/public/images/wow.png",
+        'detail' => [
+            "Ce projet a pour but de mettre à disposition des administrateurs de la guilde des Gardiens du fût des statistiques sur les évènements réalisés précédement comme par exemple : connaitre les joueurs ayant participés à un raid, les items qu'ils ont gagnés, connaitre leur rôle  et leur classe.",
+        ],
+    ],
+
+    4 => [
+        'title' => "Projet - Oshop - Front office",
+        'link' => "https://github.com/Pierre-Henri-Kocan/Projet-Oshop-front",
+        'picture' => "php/public/images/e-commerce.png",
+        'detail' => [
+            "Ce projet a été effectué lors de ma formation auprès de l'école O'clock. Il a pour but de créer le front office d'un site de e-commerce fictif.",
+        ],
+    ],
+
+    5 => [
+        'title' => "Projet - Oshop - Back office",
+        'link' => "https://github.com/Pierre-Henri-Kocan/Projet-Oshop-back",
+        'picture' => "php/public/images/e-commerce.png",
+        'detail' => [
+            "Ce projet a été effectué lors de ma formation auprès de l'école O'clock. Il a pour but de créer le back office d'un site de e-commerce fictif.",
+        ],
+    ],
+];

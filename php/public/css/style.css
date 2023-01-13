@@ -374,7 +374,7 @@ footer p {
   margin: 0 0 3rem 1.25rem;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, .25);
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.50);
   color: rgb(255, 255, 255);
   max-width: 40rem;
@@ -782,6 +782,53 @@ footer p {
   .information-title {
     font-size: 1.5rem;
   }
+}
+
+/* ---------------------- realisation ---------------------- */
+
+.realisation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 80%;
+
+}
+
+.realisation a {
+  text-decoration: none;
+}
+
+.card-realisation {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.50);
+  color: var(--text);
+  -webkit-box-shadow: 2px -2px 9px 6px rgba(0,0,0,0.25); 
+  box-shadow: 2px -2px 9px 6px rgba(0,0,0,0.25);
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.card-realisation-picture {
+  width: 15rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.card-realisation-block h5 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /* ---------------------- contact ---------------------- */
