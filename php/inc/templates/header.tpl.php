@@ -11,13 +11,13 @@
 		<link rel="shortcut icon" href="php/public/images/favicon.ico" type="image/x-icon">
         <script src="https://www.google.com/recaptcha/api.js"></script>
 
-		<title>CV Kocan - <?= $pageToDisplay ?></title>
+		<title> CV Pierre-Henri Kocan - <?= $pageToDisplay ?></title>
 	</head>
 
 	<body>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a href="./"><img class="nav-avatar" src="php/public/images/Avatar.png" alt="avatar-phk"></a>
+                    <a href="./"><img class="nav-avatar" src="php/public/images/avatar-navbar.png" alt="avatar-phk"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

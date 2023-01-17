@@ -40,8 +40,8 @@
 </div>
 
 <div class="curriculum">
-	<a href="php/public/documents/cv-pierre-henri-kocan-2023.pdf" target="_blank"><img src="php/public/images/cv.png"></a>
-	<a href="php/public/documents/cv-pierre-henri-kocan-2023.pdf" target="_blank" class="curriculum-text">Voir mon CV au format PDF</a>
+	<a href="php/public/documents/CV-Pierre-Henri-KOCAN-2023.pdf" target="_blank"><img src="php/public/images/cv.png"></a>
+	<a href="php/public/documents/CV-Pierre-Henri-KOCAN-2023.pdf" target="_blank" class="curriculum-text">Voir mon CV au format PDF</a>
 	<!-- <a href="php/public/documents/CV-Pierre-Henri-KOCAN-2023.pdf" target="_blank" class="curriculum-text" download>Télécharger</a> -->
 </div>
 	
