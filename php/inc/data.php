@@ -53,6 +53,22 @@ $experienceList = [
 
 $formationList = [
     1 => [
+        'title' => "Titre professionnel - Développeur Web et Web Mobile (DWWM)",
+        'date' => "Février 2023",
+        'location' => "",
+        'detail' => [
+            "<strong>Titre professionnel de niveau 5</strong> certifié par le Ministère du Travail et inscrit au Répertoire National des Certifications Professionnelles (RNCP).",
+            "<strong>Certificat de compétence 1</strong> – Développer la partie frontend d’une application web ou web mobile en intégrant les recommandations de sécurité :",
+            "- Maquetter une application",
+            "- Réaliser une interface utilisateur web statique et adaptable",
+            "- Développer une interface utilisateur web dynamique",
+            "<strong>Certificat de compétence 2</strong> – Développer la partie backend d’une application web ou web mobile en intégrant les recommandations de sécurité :",
+            "- Créer une base de données",
+            "- Développer les composants d’accès aux données",
+            "- Développer la partie back-end d’une application web ou web mobile",
+        ],
+    ],
+    2 => [
         'title' => "Certification - Maîtrise de la qualité en projet Web",
         'date' => "Novembre 2022",
         'location' => "Opquast – A distance - <a href='https://directory.opquast.com/fr/certificat/3T61KS/' target='_blank' class='card-formation-location'>Accéder au certificat</a>",
@@ -67,7 +83,7 @@ $formationList = [
             "Le score obtenu atteste d'une : Excellente connaissance des bonnes pratiques qualité Web et du vocabulaire associé. Compétences réelles et appréciables pour participer à des projets Web.",
         ],
     ],
-    2 => [
+    3 => [
         'title' => "Formation développeur web & web mobile",
         'date' => "Mars 2022 - Août 2022",
         'location' => "Ecole O’clock – Téléprésentiel",
@@ -78,7 +94,7 @@ $formationList = [
             "<strong>1 mois de spécialisation sur le framework Symfony</strong> : <br> Installation de composer et de différents bundles. <br> Utilisation des templates sous Twig. <br> Gestion des Entités, Repositories et Controllers. <br> Utilisation de <strong>Doctrine</strong>, des Custom queries et des fixtures. <br> Création de formulaires et gestion des authentifications et rôles. <br> Mise en place de tests unitaires et fonctionnels.",
         ],
     ],
-    3 => [
+    4 => [
         'title' => "Diplôme d’état d’expert en automobile",
         'date' => "2008",
         'location' => "Lycée du Hainaut - Valenciennes (59)",
@@ -87,7 +103,7 @@ $formationList = [
         ],
     ],
 
-    4 => [
+    5 => [
         'title' => "Licence Professionnelle",
         'date' => "2006",
         'location' => "Lycée du Hainaut - Valenciennes (59)",
@@ -96,7 +112,7 @@ $formationList = [
         ],
     ],
 
-    5 => [
+    6 => [
         'title' => "Brevet de Technicien Supérieur",
         'date' => "2005",
         'location' => "Lycée du Hainaut - Valenciennes (59)",
@@ -196,6 +212,15 @@ $realisationList = [
         'picture' => "php/public/images/e-commerce.png",
         'detail' => [
             "Ce projet a été effectué lors de ma formation auprès de l'école O'clock. Il a pour but de créer le back office d'un site de e-commerce fictif.",
+        ],
+    ],
+
+    6 => [
+        'title' => "Projet - Calendrier",
+        'link' => "https://github.com/Pierre-Henri-Kocan/Projet-Calendrier",
+        'picture' => "php/public/images/calendar.png",
+        'detail' => [
+            "Ce projet a pour but de créer un calendrier fonctionnel dans lequel on peut ajouter, modifer et supprimer des évènements.",
         ],
     ],
 ];
